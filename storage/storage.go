@@ -6,6 +6,8 @@ import (
 	"log"
 	"sync"
 	"time"
+
+	_ "github.com/lib/pq"
 )
 
 //PATRÓN DE DISEÑO SINGLETON
